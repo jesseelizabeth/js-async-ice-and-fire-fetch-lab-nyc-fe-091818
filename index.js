@@ -13,12 +13,6 @@ function renderBooks(json) {
     const h2 = document.createElement('h2')
     h2.innerHTML = `<h2>${book.name}</h2>`
     main.appendChild(h2)
-    
-    const houses = document.querySelector('#houses')
-    const book = document.querySelector('#book')
-    const character = document.querySelector('#character')
-    
-    houses.innerText = booksJson['']
   })
 }
 
