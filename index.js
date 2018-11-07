@@ -18,7 +18,7 @@ function renderBooks(json) {
     const book = document.querySelector('#book')
     const character = document.querySelector('#character')
     
-    
+    houses.innerText 
   })
 }
 
